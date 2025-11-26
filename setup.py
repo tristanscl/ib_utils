@@ -7,6 +7,8 @@ setup(
     author="Tristan Scuiller",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    install_requires=["ib_async"],
+    install_requires=[
+        "ib_async",
+    ],
     python_requires=">=3.9",
 )
